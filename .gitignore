@@ -1,0 +1,37 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# --- Environment Secrets (CRITICAL) ---
+# NEVER commit your real secrets to GitHub
+.env
+.env.local
+*.secret
+
+# --- IDEs & System Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Data & Logs ---
+# We keep the folders, but ignore the actual data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.log
+*.csv
+*.json
+*.parquet
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
