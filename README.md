@@ -1,4 +1,4 @@
-# Warehouse Logistics Data Pipeline
+# Warehouse Fulfillment Data Pipeline
 
 ## System Architecture
 ![Architecture Diagram](docs/architecture_diagram.png)
